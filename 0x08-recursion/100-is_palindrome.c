@@ -1,4 +1,4 @@
-#include "mai1n.h"
+#include "main.h"
 
 /**
  * _strlen - return length of string
