@@ -1,18 +1,13 @@
 #include "main.h"
 /**
-* _puts - prints a string in stdout
-* @str: string to print
-*
-* Return: void
-*/
+ * _puts - updates the value it points to to 98
+ * @str: character value.
+ */
 void _puts(char *str)
 {
-int i = 0;
+int i;
 
-while (*(str + i))
-{
-_putchar(*(str + i));
-i++;
-}
+for (i = 0; str[i] != 0; i++)
+_putchar(str[i]);
 _putchar('\n');
 }
